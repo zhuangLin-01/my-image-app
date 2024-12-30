@@ -1,0 +1,17 @@
+/* styles.css */
+.container {
+    display: flex;
+    height: 100vh; /* 设置容器高度为视口高度 */
+}
+
+.sidebar {
+    width: 30%; /* 左侧宽度占30% */
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.preview {
+    width: 70%; /* 右侧宽度占70% */
+    padding: 20px;
+    background-color: #fff;
+}

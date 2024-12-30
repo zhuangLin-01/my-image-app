@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片处理页面</title>
+    <link rel="stylesheet" href="styles/main.css"> <!-- 确保路径正确 -->
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <button id="backgroundImageBtn">背景图片</button>
+            <input type="file" id="imageInput" accept="image/*" style="display: none;">
+            <button>选择为文件夹</button>
+            <div class="input-group">
+                <label for="watermark">水印文字:</label>
+                <input type="text" id="watermark" name="watermark">
+            </div>
+            <button>合成图片</button>
+        </div>
+        <div class="preview" id="preview">
+            <!-- 预览区内容 -->
+        </div>
+    </div>
+    <script src="src/script/main.js"></script> <!-- 确保路径正确 -->
+</body>
+</html>
